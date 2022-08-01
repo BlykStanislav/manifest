@@ -1,0 +1,77 @@
+.blog{
+    padding: 0 10px;
+    width: $sm;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media screen and(min-width: $md){
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        
+    }
+    
+    &_h2{
+        font-family: $font-secondary;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        color: $black-default;
+        text-align: center;
+        margin: 50px 0 70px;
+    }
+}
+
+.blog_post1 {
+
+    &-tag{
+        font-family: $font-primery;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: $secondary;
+        margin-bottom: 30px;
+
+    }
+
+    &-title{
+        font-family: $font-secondary;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36.52px;
+        letter-spacing: 0.1em;
+        color: $black-default;
+        margin-bottom: 10px;
+    }
+
+    &-date{
+        font-family: $font-primery;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: $secondary;
+        margin-bottom: 40px;
+    }
+    
+    &-description{
+        font-family: $font-primery;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: 00.05em;
+        margin-bottom: 37px;
+
+    }
+
+    &-arrow{
+        margin-bottom: 50px;
+    }
+
+    &-build{
+        margin-bottom: 50px;
+    }
+}

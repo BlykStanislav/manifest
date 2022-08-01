@@ -1,0 +1,43 @@
+
+
+.banner__bg{
+    background-image: url(../../img/bg-small.jpg);
+    height: 500px;
+
+    @media screen and(min-width: $md) {
+        background-image: url(../../img/bg-medium.jpg);
+        height: 320px;
+        
+    }
+
+    @media screen and (min-width:$lg) {
+        background-image: url(../../img/bg-large.jpg);
+        height: 600px;
+        
+    }
+
+}
+
+.banner__hero-h3{
+    padding: 70px 10px 230px;
+    font-family: $font-secondary;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: $black-default;
+
+    @media screen and (min-width:$md) {
+        padding: 30px 20px 190px;
+        font-size: 36px;
+        
+    }
+
+    @media screen and (min-width:$lg) {
+        padding: 100px 535px 380px 135px;
+
+        
+    }
+
+}
+

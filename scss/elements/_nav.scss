@@ -1,0 +1,47 @@
+.header__nav {
+    display: none;
+
+    @media screen and(min-width:$lg) {
+        display: block;
+        
+    }
+
+}
+
+.logo {
+    flex-grow: 1
+    ;
+}
+
+.hamburger{
+    margin: 20px 0;
+
+    @media screen and(min-width:$lg) {
+        display: none;
+        
+    }
+}
+
+.nav__ul{
+    display: flex;
+    gap:40px;
+
+    &-a{
+        text-decoration: none;
+        font-family: $font-primery;
+        font-size: 14px;
+        line-height: 16.8px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: $black-default;
+
+
+    }
+}
+
+.search {
+    @media screen and(min-width:$lg) {
+        margin: 40px 0;
+        
+    }
+}
